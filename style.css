@@ -1,0 +1,17 @@
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.profile-photo {
+    width: 180px; 
+    height: 250px; 
+}
