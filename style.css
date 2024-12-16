@@ -15,3 +15,7 @@ body {
     width: 180px; 
     height: 250px; 
 }
+#cv-container {
+    font-family: Arial, sans-serif;
+    background-color: black ;
+}
