@@ -17,6 +17,7 @@ body {
 }
 #cv-container {
     font-family: Arial, sans-serif;
-    background-color: red;
+    background-color: black;
+    color: red;
     font-size: 20px;
 }
