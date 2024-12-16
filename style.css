@@ -15,7 +15,7 @@ body {
     width: 180px; 
     height: 250px; 
 }
-#cv-container {
+cv-container {
     font-family: Arial, sans-serif;
     background-color: black ;
 }
