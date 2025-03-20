@@ -1,30 +1,68 @@
-ul {
-    list-style-type: square;
-    margin-left: 20px;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
+/* Styles généraux */
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
-}
-.profile-photo {
-    width: 180px; 
-    height: 250px; 
-}
-#cv-container {
-    font-family: Arial, sans-serif;
-    background-color: orange;
-    color: white;
-    font-size: 20px;
-}
-#cv-ecriture {
-    font-family: Arial, sans-serif;
-    background-color: blue;
-    color: white;
-    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
+/* En-tête */
+header {
+    background: linear-gradient(90deg, #ff8c00, #8a2be2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Hero */
+.hero {
+    text-align: center;
+    padding: 250px;
+    background: linear-gradient(45deg, #ff8c00, #8a2be2);
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: #ff8c00;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+/* Section À propos */
+#about {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
